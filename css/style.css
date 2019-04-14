@@ -163,11 +163,12 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 52px 0;
 }
 
 .inner__content {
   width: 480px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -183,7 +184,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 52px 0;
 }
 
 .inner__content .content__btn {
