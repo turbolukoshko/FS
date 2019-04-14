@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+
+  /* Form */
+
+  .inner__form {
+    width: 400px;
+  }
+
+  /* Footer */
+
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

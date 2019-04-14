@@ -1,0 +1,42 @@
+@media only screen and (max-width: 375px) {
+
+  /* Hamburger */
+
+  .nav {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .nav__list {
+    top: 90px;
+    right: 10px;
+  }
+
+  .nav__list::before {
+    content: '';
+    display: block;
+    position: absolute;
+    /* background: red; */
+    top: -25px;
+    left: 0px;
+    height: 40px;
+    width: 300px;
+  }
+
+  /* Main */
+
+  .content__block-center .slider {
+    width: 300px;
+  }
+
+  .inner__content img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Form */
+  .inner__form {
+    width: 300px;
+  }
+}
