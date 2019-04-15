@@ -198,6 +198,12 @@ body {
   font-weight: 700;
 }
 
+.inner__content .content__btn:hover {
+  border: 2px solid #433292;
+  color: #433292;
+  transition: all .2s ease;
+}
+
 .inner__content .image {
   display: flex;
   justify-content: center;
@@ -252,6 +258,12 @@ body {
   cursor: pointer;
 }
 
+.form__btn:hover {
+  border: 2px solid #433292;
+  color: #433292;
+  transition: all .2s ease;
+}
+
 /* Footer */
 
 .footer {
@@ -301,6 +313,11 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+.contact__btn:hover {
+  border: 2px solid #000000;
+  transition: all .2s ease;
 }
 
 .social {
